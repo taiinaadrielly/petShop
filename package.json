@@ -4,9 +4,9 @@
   "description": "Projeto utilizado como base de ensino e treinamento, dos cursos de **Informática**, principalmente de nível técnico - **IFSP**",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -e ts,json,mustache --exec ts-mode src/server.ts"
   },
-  "repository": {
+   "repository": {
     "type": "git",
     "url": "git+https://github.com/taiinaadrielly/petShop.git"
   },
@@ -21,6 +21,8 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/mustache-express": "^1.2.5",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
