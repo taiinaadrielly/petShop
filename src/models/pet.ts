@@ -158,8 +158,8 @@ export const Pet = {
             } else {
                 return false;
             }*/
-           /*return (item.type === type)*/
-           return data.filter(item => item.type === type);
+          return (item.type === type)
+            /*return data.filter(item => item.type === type);*/
         })
     },
 
